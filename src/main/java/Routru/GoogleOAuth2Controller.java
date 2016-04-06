@@ -103,7 +103,7 @@ public class GoogleOAuth2Controller {
 
         JsonObject jsonObject = new JsonParser().parse(result).getAsJsonObject();
 
-        String url = "https://routru.me/#/signin/token/" + jsonObject.get("access_token").getAsString();
+        String url = Utility.getSiteHost() + "#/signin/token/" + jsonObject.get("access_token").getAsString();
 
         return new ModelAndView("redirect:" + url);
 

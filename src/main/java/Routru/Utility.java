@@ -13,7 +13,15 @@ public class Utility {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("Beans.xml");
 
-        return context.getBean("prodHost").toString();
+        return context.getBean("devHost").toString();
+    }
+
+    public static String getSiteHost(){
+
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("Beans.xml");
+
+        return context.getBean("siteHost").toString();
     }
 
     public static String getGoogleClientId(){
