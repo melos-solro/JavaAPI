@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8051a3ff-e959-4849-8d6d-b32a14e223de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Routru/GoogleOAuth2Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Routru/GoogleOAuth2Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Routru/Utility.java" afterPath="$PROJECT_DIR$/src/main/java/Routru/Utility.java" />
-    </list>
+    <list default="true" id="8051a3ff-e959-4849-8d6d-b32a14e223de" name="Default" comment="" />
     <ignored path="RoutruEnterprise.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
